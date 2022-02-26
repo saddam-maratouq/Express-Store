@@ -4043,6 +4043,8 @@ textarea.form-control-lg {
   margin-bottom: 0;
   list-style: none; 
   font-weight: 500;
+  align-items: center;
+
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -4428,6 +4430,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .nav-link {
   color: #AA3B3D;
+  
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
