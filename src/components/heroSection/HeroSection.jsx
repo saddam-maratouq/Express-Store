@@ -23,8 +23,8 @@ const HeroSection = () => {
       
         <h2 className="pop"> Popular Products </h2> 
         {/* card/*/} 
-        <div className="row justify-content-start align-items-center container card-row ">
-        <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
+        <div className="row justify-content-start align-items-center container card-row  flex-nowrap ">
+        <div className="card bg-light rounded col-2 "style={{ width: '13rem'}}>
           <img src={hoedy} className="card-img-top" alt=" hoedy" />
           <div className="card-body">
             <span className="card-title"> Autmen women</span>
@@ -34,7 +34,7 @@ const HeroSection = () => {
           </div>
         </div> 
          {/* card/*/}
-         <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
+         <div className="card bg-light rounded col-2 "style={{ width: '13rem'}}>
           <img src={hoedy} className="card-img-top" alt=" hoedy" />
           <div className="card-body">
             <span className="card-title"> Autmen women</span>
@@ -44,7 +44,7 @@ const HeroSection = () => {
           </div>
         </div> 
          {/* card/*/}
-         <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
+         <div className="card bg-light rounded col-2 "style={{ width: '13rem'}}>
           <img src={hoedy} className="card-img-top" alt=" hoedy" />
           <div className="card-body">
             <span className="card-title"> Autmen women</span>
@@ -54,7 +54,7 @@ const HeroSection = () => {
           </div>
         </div> 
          {/* card/*/}
-         <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
+         <div className="card bg-light rounded col-2 "style={{ width: '13rem'}}>
           <img src={hoedy} className="card-img-top" alt=" hoedy" />
           <div className="card-body">
             <span className="card-title"> Autmen women</span>
@@ -65,7 +65,7 @@ const HeroSection = () => {
         </div> 
 
           {/* card/*/}
-          <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
+          <div className="card bg-light rounded col-2 "style={{ width: '13rem'}}>
           <img src={hoedy} className="card-img-top" alt=" hoedy" />
           <div className="card-body">
             <span className="card-title"> Autmen women</span>
@@ -76,7 +76,7 @@ const HeroSection = () => {
         </div> 
 
           {/* card/*/}
-          <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
+          <div className="card bg-light rounded col-2 "style={{ width: '13rem'}}>
           <img src={hoedy} className="card-img-top" alt=" hoedy" />
           <div className="card-body">
             <span className="card-title"> Autmen women</span>
@@ -86,28 +86,7 @@ const HeroSection = () => {
           </div>
         </div> 
 
-          {/* card/*/}
-          <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
-          <img src={hoedy} className="card-img-top" alt=" hoedy" />
-          <div className="card-body">
-            <span className="card-title"> Autmen women</span>
-            <p className="card-text">
-             size :0000
-            </p>
-          </div>
-        </div> 
-
-          {/* card/*/}
-          <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
-          <img src={hoedy} className="card-img-top" alt=" hoedy" />
-          <div className="card-body">
-            <span className="card-title"> Autmen women</span>
-            <p className="card-text">
-             size :0000
-            </p>
-          </div>
-        </div> 
-
+        
 
         </div>
 
