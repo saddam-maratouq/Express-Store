@@ -86,6 +86,28 @@ const HeroSection = () => {
           </div>
         </div> 
 
+          {/* card/*/}
+          <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
+          <img src={hoedy} className="card-img-top" alt=" hoedy" />
+          <div className="card-body">
+            <span className="card-title"> Autmen women</span>
+            <p className="card-text">
+             size :0000
+            </p>
+          </div>
+        </div> 
+
+          {/* card/*/}
+          <div className="card bg-light rounded col-2 "style={{ width: '11rem'}}>
+          <img src={hoedy} className="card-img-top" alt=" hoedy" />
+          <div className="card-body">
+            <span className="card-title"> Autmen women</span>
+            <p className="card-text">
+             size :0000
+            </p>
+          </div>
+        </div> 
+
 
         </div>
 
