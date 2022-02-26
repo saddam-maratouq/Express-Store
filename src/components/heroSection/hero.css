@@ -44,4 +44,25 @@ button {
     padding-top: 2%;
     font-size: 20px;
     color: #aa3b3d;
+    font-weight: 500;
+}
+
+.card-row {
+    margin-left: 6%;
+}
+
+.card {
+    /* border-radius: 15px; */
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.card-title {
+    color: gray;
+    font-size: 14px;
+}
+
+.card-text {
+    color: gray;
+    font-size: 15px;
 }
