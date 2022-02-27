@@ -152,7 +152,11 @@ const Header = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> 
+
+                    {/* end dropdownCart */}
+
+
 
                     {/* <! cart-button>>  */} 
 
@@ -163,7 +167,7 @@ const Header = () => {
                   </ul>
                 </li> 
                 
-                <FiUser color="brown"  size='2rem' />
+                <FiUser  className=" user-icon  mx-5 " color="brown"  size='2rem' />
                 
               </ul>
             </div>

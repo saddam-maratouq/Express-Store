@@ -28,7 +28,9 @@
 
   .dropdown-menu {
       border-radius: 30px;
-  }
+  } 
+
+   
   
   .drop {
       display: flex;
@@ -100,6 +102,9 @@
 
 
 
+.user-icon {
+    margin-left: 10%;
+}
 
 
 
