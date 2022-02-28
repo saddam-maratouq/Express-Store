@@ -1,6 +1,13 @@
+
+   .Navs-color {
+       background-color: #eeeeee; 
+   }
+   
+      
+
 .fline {
     background-color: #EA7323;
-    padding-top: 7px; 
+    padding-top: 10px; 
     margin-top: 0; 
 
 } 
@@ -15,14 +22,34 @@
 
 
 .Sline {
-    padding-top: 8px;
-    background-color: #aa3b3d;
+    padding-top: 10px;
+    background-color: #aa3b3d; 
 }
 
 
 .navbar-light .navbar-nav .nav-link {
     color: #AA3B3D;
     margin-left: 5%;
+  } 
+
+
+
+ .S-icon {
+    position: relative;
+    left: 3%;
+ }
+
+  .search {
+      display: flex;
+      /* align-items: center; */
+      width: 40%;
+      margin-left: 1%; 
+      border-radius: 30px;
+      border: none;
+      padding: 0.4rem;
+      background-color: white;
+      font-size: 1rem;
+      word-spacing: 3px;
   }
 
 
@@ -30,16 +57,16 @@
       border-radius: 30px;
   } 
 
+
    
   
   .drop {
       display: flex;
       margin: 1rem;
       flex-direction: column;
-      width: 350px;
+      min-width: 350px;
       border-bottom: 1px solid  rgb(160, 158, 158);
-    /* background-color: red; */ 
-    
+    /* background-color: red; */    
     } 
 
 
@@ -59,8 +86,8 @@
 
 
   .details {
-      display: flex;
-    width: 110% 
+    display: flex;
+    width: 100% 
 
   } 
 
@@ -103,16 +130,62 @@
 
 
 .user-icon {
-    margin-left: 10%;
+    margin-left: 1%;
 }
 
 
 
 
 
-  /* className="dropdown-menu" aria-labelledby="navbarDropdown"  
+    @media (max-width: 551px) {
+        .drop {
+            display: flex;
+            margin: 0rem;
+            flex-direction: column;
+            width: 2%;
+            border-bottom: 1px solid  rgb(160, 158, 158);
+          /* background-color: red; */ 
+         
+          }  
 
-  className="dropdown-item */
+          body {
+         
+            margin-right: 8%;
+        } 
+
+        .f-child {
+            display: flex;
+            flex-direction: column; 
+            width: 50%;
+        
+         } 
+
+         .S-child {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30%; 
+            align-items: flex-end;
+        } 
+
+
+        .search {
+            display: flex;
+            justify-content: start;
+            width: 100%;
+            margin-right: 3%;
+            font-size: 12px;
+           
+        } 
+
+        .S-icon {
+            position: relative;
+             top:  10px ;
+         }
+    }
 
 
   
+  
+  
+

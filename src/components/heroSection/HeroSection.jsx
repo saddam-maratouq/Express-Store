@@ -17,7 +17,7 @@ const HeroSection = () => {
 
           <button className="bg-orange"> Get Now </button>
         </div>
-      </section>
+     
 
        {/* Cards */}  
       
@@ -88,7 +88,9 @@ const HeroSection = () => {
 
         
 
-        </div>
+        </div> 
+
+        </section>
 
     </>
   );
